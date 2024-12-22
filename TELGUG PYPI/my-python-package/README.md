@@ -11,7 +11,7 @@ My Python Package is a library designed to convert Telugu text into phonetic rep
 You can install the package using pip:
 
 ```
-pip install my-python-package
+pip install telugu_phenome_gen
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ pip install my-python-package
 Here is a simple example of how to use the package:
 
 ```python
-from my_python_package.phenome_gen import process_text
+from telugu_phenome_gen.py import process_text
 
 input_text = "ఇది ఒక ఉదాహరణ వాక్యం"
 phonetic_representation = process_text(input_text)
